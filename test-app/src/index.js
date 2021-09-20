@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import AppFooter from './AppFooter';
 import AppContent from './AppContent';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
 class App extends Component {
