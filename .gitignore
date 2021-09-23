@@ -1,2 +1,7 @@
 test-app/node_modules/
+
 test-app/node_modules/.bin/
+
+go-movies/node_modules/
+
+go-movies/node_modules/.bin/
