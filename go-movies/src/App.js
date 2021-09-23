@@ -1,5 +1,8 @@
 import React, { Fragment } from 'react';
-import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route, Link, useParams} from 'react-router-dom';
+import Home from './components/Home';
+import Movies from './components/Movies';
+import Admin from './components/Admin';
 
 export default function App() {
   return (
@@ -32,6 +35,9 @@ export default function App() {
           </div>
           <div className="col-md-10">
             <Switch>
+              <Route path="/movies/:id">
+                <Movie />
+              </Route>
               <Route path="/movies">
                 <Movies />
               </Route>
@@ -49,12 +55,7 @@ export default function App() {
   );
 }
 
-function Home() {
-  return <h2>Home</h2>
-}
-function Movies() {
-  return <h2>Movies</h2>
-}
-function Admin() {
-  return <h2>Manage Catalogue</h2>
+function Movie() {
+  let { id } = useParams();
+  return <h2>Movie id {id}</h2>
 }
