@@ -1,71 +1,59 @@
 {
   "openapi": "3.0.0",
-  "info": {
-    "title": "backend-app",
-    "version": "1.0",
-    "description": ""
-  },
-  "servers": [
+  "info": { "title": "backend-app", "version": "1.0", "description": "" },
+  "servers": [{ "url": "http://localhost:4000" }],
+  "paths":
     {
-      "url": "http://localhost:4000"
-    }
-  ],
-  "paths": {
-    "/status": {
-      "get": {
-        "summary": "/status",
-        "tags": [],
-        "responses": {
-          "200": {
-            "$ref": "#/components/responses/status"
-          }
+      "/status":
+        {
+          "get":
+            {
+              "summary": "/status",
+              "tags": [],
+              "responses":
+                { "200": { "$ref": "#/components/responses/status" } },
+              "operationId": "get-status",
+              "description": "/status",
+            },
         },
-        "operationId": "get-status",
-        "description": "/status"
-      }
-    }
-  },
-  "components": {
-    "schemas": {},
-    "responses": {
-      "status": {
-        "description": "status",
-        "content": {
-          "application/json": {
-            "schema": {
-              "description": "",
-              "type": "object",
-              "x-examples": {
-                "example-1": {
-                  "Status": "Available",
-                  "Enviroment": "development",
-                  "Version": "1.0.0"
-                }
-              },
-              "properties": {
-                "Status": {
-                  "type": "string",
-                  "minLength": 1,
-                  "maxLength": 3
+    },
+  "components":
+    {
+      "schemas": {},
+      "responses":
+        {
+          "status":
+            {
+              "description": "status",
+              "content":
+                {
+                  "application/json":
+                    {
+                      "schema":
+                        {
+                          "description": "",
+                          "type": "object",
+                          "x-examples":
+                            {
+                              "example-1":
+                                {
+                                  "status": "Available",
+                                  "enviroment": "development",
+                                  "version": "1.0.0",
+                                },
+                            },
+                          "properties":
+                            {
+                              "status": { "type": "string", "minLength": 1 },
+                              "enviroment":
+                                { "type": "string", "minLength": 1 },
+                              "version": { "type": "string", "minLength": 1 },
+                            },
+                          "required": ["Status", "Enviroment", "Version"],
+                        },
+                    },
                 },
-                "Enviroment": {
-                  "type": "string",
-                  "minLength": 1
-                },
-                "Version": {
-                  "type": "string",
-                  "minLength": 1
-                }
-              },
-              "required": [
-                "Status",
-                "Enviroment",
-                "Version"
-              ]
-            }
-          }
-        }
-      }
-    }
-  }
+            },
+        },
+    },
 }
