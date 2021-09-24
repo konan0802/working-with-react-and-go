@@ -2,5 +2,6 @@
 「[Working with React and Go (golang)](https://www.udemy.com/course/working-with-react-and-go-golang/)」の学習を行った際のリポジトリ
 
 ## 構成
-* go-movies: React+Golangで作成する映画の保存アプリ
+* go-movies: 映画アプリのフロントエンド(React)
 * test-app: Reactのテスト用アプリ
+* backend-app: Goのテスト用アプリ
