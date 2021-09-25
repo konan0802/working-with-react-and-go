@@ -7,8 +7,8 @@
 * backend-app: Goのテスト用アプリ
 * postgreSQL: postgreSQLの.sqlファイル
 
-### 開発環境の立ち上げ
-#### ◇PostgreSQLの立ち上げ
+## 開発環境の立ち上げ
+### ◇PostgreSQLの立ち上げ
 1. PostgreSQLのインストール
     ```bash
     $ brew install postgresql
