@@ -32,3 +32,4 @@
     ```bash
     $ psql -d go_movies -f go_movies.sql
     ```
+参考：[macローカル環境にPostgreSQL13.0をインストールしデータベース環境を設定する](https://tomato-develop.com/mac-local-postgresql-database/)
