@@ -22,9 +22,13 @@
     ```
 3. DBの作成
     ```bash
-    $ createdb your_database
+    $ createdb go_movies
     ```
-4. ダウンロードした`.sqlファイル`をdump
+4. ダウンロードした`.sqlファイル`を作成したDBにdump
+    ```bash
+    $ ls
+    go_movies.sql
+    ```
     ```bash
     $ psql -d go_movies -f go_movies.sql
     ```
