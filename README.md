@@ -5,7 +5,7 @@
 * go-movies: 映画アプリのフロントエンド(React)
 * test-app: Reactのテスト用アプリ
 * backend-app: Goのテスト用アプリ
-* postgreSQL: postgreSQLの.sqlファイル
+* postgreSQL: postgreSQLの`.sqlファイル`を配置
 
 ## 開発環境の立ち上げ
 ### ◇PostgreSQLの立ち上げ
