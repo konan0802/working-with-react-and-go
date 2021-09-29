@@ -3,9 +3,9 @@
 
 ## 構成
 * go-movies: 映画アプリのフロントエンド(React)
-* test-app: Reactのテスト用アプリ
-* backend-app: Goのテスト用アプリ
-* postgreSQL: postgreSQLの`.sqlファイル`を配置
+* test-app: Reactを触ってみた用のディレクトリ
+* backend-app: 映画アプリのバックエンド(Golang)
+* postgreSQL: 映画アプリのDB（postgreSQLの`.sqlファイル`）
 
 ## 開発環境の立ち上げ
 ### ◇PostgreSQLの立ち上げ
