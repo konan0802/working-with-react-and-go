@@ -58,6 +58,7 @@ export default class OneMovie extends Component {
                             </span>
                         ))}
                     </div>
+                    <div className="clearfix"></div>
 
                     <hr />
 
