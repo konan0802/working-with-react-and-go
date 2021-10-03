@@ -2,7 +2,11 @@ import React, { Component, Fragment } from 'react'
 
 export default class OneMovie extends Component {
 
-    state = { movie: {}, idLoaded: false, error:  null };
+    state = {
+        movie: {},
+        idLoaded: false,
+        error:  null
+    };
 
     componentDidMount() {
         fetch("http://localhost:4000/v1/movie/" + this.props.match.params.id)
