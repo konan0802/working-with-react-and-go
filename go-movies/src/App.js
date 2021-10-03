@@ -4,6 +4,7 @@ import Home from './components/Home';
 import Movies from './components/Movies';
 import OneMovie from './components/OneMovie';
 import Gneres from './components/Genres';
+import OneGenre from './components/OneGenre';
 import Admin from './components/Admin';
 
 export default function App() {
@@ -36,10 +37,11 @@ export default function App() {
           </div>
           <div className="col-md-10">
             <Switch>
-              <Route path="/movie/:id" component={OneMovie} />
+              <Route path="/movies/:id" component={OneMovie} />
               <Route path="/movies">
                 <Movies />
               </Route>
+              <Route path="/genre/:id" component={OneGenre} />
               <Route exact path="/genres">
                 <Gneres />
               </Route>
