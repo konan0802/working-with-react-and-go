@@ -34,14 +34,16 @@
     ```
 参考：[macローカル環境にPostgreSQL13.0をインストールしデータベース環境を設定する](https://tomato-develop.com/mac-local-postgresql-database/)
 
-### フロントの立ち上げ
-1. npm start
+### ◇フロントの立ち上げ
+1. `/go-movies`に移動
+2. 起動
     ```bash
     $ npm start
     ```
 
-### バックエンドの立ち上げ
-1. go run
+### ◇バックエンドの立ち上げ
+1. `/backend-app`に移動
+2. 起動
     ```bash
     $ go run ./cmd/api/
     ```
