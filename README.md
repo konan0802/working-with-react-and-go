@@ -7,7 +7,7 @@
 * `postgreSQL`: 映画アプリのDB（postgreSQLの`.sqlファイル`）
 * `test-app`: Reactを触ってみたディレクトリ
 
-## 開発環境の立ち上げ
+## ローカル環境の立ち上げ
 ### ◇PostgreSQLの立ち上げ
 1. PostgreSQLのインストール
     ```bash
