@@ -34,7 +34,7 @@
     ```
 参考：[macローカル環境にPostgreSQL13.0をインストールしデータベース環境を設定する](https://tomato-develop.com/mac-local-postgresql-database/)
 
-### ◇フロント(React)の立ち上げ
+### ◇フロントの立ち上げ
 1. `go-movies`に移動
 2. 起動
     ```bash
@@ -42,7 +42,7 @@
     ```
 3. 「[http://localhost:3000/](http://localhost:3000/)」にアクセス
 
-### ◇バックエンド(Golang)の立ち上げ
+### ◇バックエンドの立ち上げ
 1. `backend-app`に移動
 2. 起動
     ```bash
