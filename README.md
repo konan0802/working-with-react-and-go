@@ -8,6 +8,7 @@
 * `test-app`: Reactを触ってみたディレクトリ
 
 ## ローカル環境の立ち上げ
+
 ### ◇PostgreSQLの立ち上げ
 1. PostgreSQLのインストール
     ```bash
